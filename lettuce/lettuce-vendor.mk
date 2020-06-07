@@ -291,6 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
 PRODUCT_PACKAGES += \
+  	fastdormancy \
     ims \
     imssettings \
     imscmlibrary \
