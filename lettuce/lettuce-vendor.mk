@@ -288,7 +288,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/yu/lettuce/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/yu/lettuce/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:system/vendor/framework/QtiTelephonyServicelibrary.jar \
+    vendor/yu/lettuce/proprietary/vendor/etc/permissions/telephonyservice.xml:system/vendor/etc/permissions/telephonyservice.xml
 
 PRODUCT_PACKAGES += \
   	fastdormancy \
@@ -301,6 +303,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     colorservice \
+		QtiTelephonyService \
     shutdownlistener \
     qcnvitems \
     qcrilhook
